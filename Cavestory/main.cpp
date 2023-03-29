@@ -1,11 +1,7 @@
-#include "graphics.h"
+#include "game.h"
 
 int main(int argc, const char* argv[]) {
-	Graphics graphics;
-
-	while (true) {
-		// success
-	}
+	Game game;
 
 	return 0;
 }
