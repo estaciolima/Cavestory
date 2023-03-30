@@ -2,7 +2,9 @@
 #ifndef GAME_H
 #define GAME_H
 
-class Graphics; //forward declare
+#include "sprite.h"
+
+class Graphics; //forward declaration
 
 class Game {
 public:
@@ -12,6 +14,8 @@ private:
 	void gameLoop();
 	void draw(Graphics &graphics);
 	void update(float elapsedTime);
+
+	Sprite _player;
 };
 
 #endif // !GAME_H
